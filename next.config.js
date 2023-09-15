@@ -15,6 +15,10 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
+  webpack: (config) => {
+    // Your Webpack 5 configuration here
+    return config;
+  },
 };
 
 module.exports = nextConfig;
