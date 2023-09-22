@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const UserRootPage = () => {
+const UserRootPage = async () => {
   const content = (
     <section>
       <h2>
