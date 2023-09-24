@@ -1,11 +1,9 @@
-import Link from 'next/link';
+import SignIn from '../../components/Signin';
 
 const UserRootPage = async () => {
   const content = (
     <section>
-      <h2>
-        <Link href="/"> Back To Home </Link>
-      </h2>
+      <SignIn />
     </section>
   );
 
